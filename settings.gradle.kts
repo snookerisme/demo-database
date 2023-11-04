@@ -1,1 +1,1 @@
-rootProject.name = "demo-h2database"
+rootProject.name = "demo-database"
