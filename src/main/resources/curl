@@ -1,0 +1,29 @@
+curl --location 'localhost:8080/getAll'
+
+curl --location 'localhost:8080/get' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id" : "001"
+}'
+
+curl --location 'localhost:8080/save' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id" : "001",
+    "name" : "Snooker",
+    "age" : 27
+}'
+
+curl --location 'localhost:8080/update' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id" : "001",
+    "name" : "Snooker eiei",
+    "age" : 27
+}'
+
+curl --location 'localhost:8080/delete' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id" : "001"
+}'
